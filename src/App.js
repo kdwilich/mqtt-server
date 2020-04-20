@@ -5,20 +5,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="https://assets.shiftr.io/js/mqtt-2.9.0.js"></script>
+        <script src="script.js" charset="utf-8"></script>
+      </head>
+      <body>
+        <button id="button">Click Me</button>
+      </body>
     </div>
   );
 }
